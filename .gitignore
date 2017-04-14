@@ -1,0 +1,8 @@
+node_modules/
+
+in/*
+!in/example-resume.md
+!in/example-resume-styles.css
+
+out/*
+!out/example-resume.pdf
