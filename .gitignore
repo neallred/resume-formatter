@@ -2,7 +2,10 @@ node_modules/
 
 in/*
 !in/example-resume.md
-!in/example-resume-styles.css
+!in/example-resume-styles.scss
+!in/neallred.md
+!in/neallred.scss
 
 out/*
 !out/example-resume.pdf
+!out/neallred.pdf

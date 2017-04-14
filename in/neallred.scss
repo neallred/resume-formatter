@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ *    v2.0 | 20110126
+ *       License: none (public domain)
+ *       */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+input[type="checkbox"] {
+	margin: 0;
+}
+input[type="submit"]:disabled {
+	color: black;
+}
+
+
+
+
+
+// General constants
+$main-color: #222222;
+$letter-width: 100px;
+$general-font-size: 14px;
+
+// name constants (e.g. for Joe Coder)
+$name-size: 30px;
+$name-font-style: italic;
+$name-font-weight: bold;
+
+// meta constants (e.g. for address, phone)
+$meta-font-size: $general-font-size;
+
+// list constants
+$list-font-size: $general-font-size;
+
+// section constants
+$section-font-size: 22px;
+$section-header-padding: $section-font-size 0 $section-font-size;
+
+// subsection constants
+$subsection-font-size: 15px;
+$subsection-header-padding: $subsection-font-size 0 $subsection-font-size;
+
+
+
+* {
+  color: $main-color;
+  font-family: 'Roboto', arial, sans-serif;
+}
+
+h1 {
+  font-size: $name-size;
+  font-style: $name-font-style;
+  font-weight: $name-font-weight;
+}
+
+h2 {
+  font-size: $section-font-size;
+  padding: $section-header-padding;
+}
+
+h3 {
+  font-size: $subsection-font-size;
+  padding: $subsection-header-padding;
+}
+
+p {
+  color: blue;
+}
+
+li {
+  list-style: circle inside;
+  font-size: $list-font-size;
+}
+
+
+.job {
+	&__location {
+		font-size: 12px;
+    font-style: italic;
+	}
+}
+
+.meta {
+  &__row {
+    display: block;
+    clear: both;
+  }
+
+	&__phone,
+	&__email,
+	&__address,
+	&__city {
+    font-size: $meta-font-size;
+  }
+
+	&__address,
+	&__city {
+    text-align: left;
+    float: left;
+  }
+
+	&__phone,
+	&__email
+  {
+    text-align: right;
+    float: right;
+	}
+
+  padding-bottom: 20px;
+}
+
+.section {
+  &__leader {
+    padding-top: 0;
+  }
+}

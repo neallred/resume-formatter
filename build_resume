@@ -1,0 +1,16 @@
+#! /bin/sh
+# Arguments reversed to support more natural in, then out notation
+STYLE_PATH=${3:=""}
+CONVERTED_STYLE_PATH="${STYLE_PATH%%.*}.css"
+echo $CONVERTED_STYLE_PATH
+
+./node_modules/node-sass/bin/node-sass $STYLE_PATH $CONVERTED_STYLE_PATH
+./node_modules/markdown-pdf/bin/markdown-pdf \
+  --paper-format Letter \
+  --paper-orientation portrait \
+  -o $2 \
+  $1 \
+  -s $CONVERTED_STYLE_PATH
+
+#clean up
+rm $CONVERTED_STYLE_PATH
