@@ -1,5 +1,5 @@
 {
-  "name": "resume-generator",
+  "name": "resume-formatter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "markdown-pdf": "^7.0.0",
     "node-sass": "^4.5.2"
   }
 }
