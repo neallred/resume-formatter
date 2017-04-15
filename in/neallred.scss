@@ -54,17 +54,55 @@ input[type="submit"]:disabled {
 	color: black;
 }
 
+@font-face {
+  font-family: Quirkbot;
+  font-weight: normal;
+  src: url('./QuirkyRobot.ttf');
+}
+
+@font-face {
+  font-family: Neuropol;
+  font-weight: normal;
+  src: url('./neuropol.ttf');
+}
 
 
 
 
 // General constants
 $main-color: #222222;
-$letter-width: 100px;
-$general-font-size: 14px;
+$general-font-size: 11mm;
+$title-border: 1mm #003d4e solid;
+  
+//use style tag in md file to do fonts: something about pandoc or wkhtmltopdf isn't picking them up from the scss -> css file
+//font-family options:
+//  "Helvetica Neue",
+//  "Times New Roman",
+//  Calibri,
+//  Helvetica,
+//  sans-serif
+//  sans-serif,
+//  palatino
+//  Impact,
+//  Roboto, Arial, sans-serif;
+
+@mixin get-title-padding($title-font-size) {
+  padding: ($title-font-size / 2) 0 ($title-font-size / 2);
+}
+
+@mixin get-title-margin($title-font-size) {
+  margin: ($title-font-size / 2) 0 ($title-font-size / 2);
+}
+
+@mixin get-title-border($title-border) {
+  border-bottom: $title-border;
+  display: inline-block;
+}
+
+
 
 // name constants (e.g. for Joe Coder)
-$name-size: 30px;
+$name-size: 25mm;
 $name-font-style: italic;
 $name-font-weight: bold;
 
@@ -75,34 +113,32 @@ $meta-font-size: $general-font-size;
 $list-font-size: $general-font-size;
 
 // section constants
-$section-font-size: 22px;
-$section-header-padding: $section-font-size 0 $section-font-size;
+$section-font-size: 22mm;
 
 // subsection constants
-$subsection-font-size: 15px;
-$subsection-header-padding: $subsection-font-size 0 $subsection-font-size;
-
+$subsection-font-size: 15mm;
 
 
 * {
   color: $main-color;
-  font-family: 'Roboto', arial, sans-serif;
 }
 
 h1 {
   font-size: $name-size;
   font-style: $name-font-style;
   font-weight: $name-font-weight;
+  font-family: Quirkbot;
 }
 
 h2 {
   font-size: $section-font-size;
-  padding: $section-header-padding;
+  @include get-title-border($title-border);
+  @include get-title-margin($section-font-size);
 }
 
 h3 {
   font-size: $subsection-font-size;
-  padding: $subsection-header-padding;
+  @include get-title-margin($subsection-font-size);
 }
 
 p {
@@ -112,12 +148,14 @@ p {
 li {
   list-style: circle inside;
   font-size: $list-font-size;
+  line-height: 1.4;
+  margin-left: 2mm;
 }
 
 
 .job {
 	&__location {
-		font-size: 12px;
+		font-size: 12mm;
     font-style: italic;
 	}
 }
@@ -126,29 +164,36 @@ li {
   &__row {
     display: block;
     clear: both;
+    line-height: 1.2;
   }
 
-	&__phone,
-	&__email,
 	&__address,
-	&__city {
+	&__city,
+	&__email,
+	&__github,
+	&__phone,
+ 	&__stackoverflow,
+  {
     font-size: $meta-font-size;
   }
 
 	&__address,
-	&__city {
+	&__city,
+  &__github
+  {
     text-align: left;
     float: left;
   }
 
 	&__phone,
-	&__email
+	&__email,
+	&__stackoverflow
   {
     text-align: right;
     float: right;
 	}
 
-  padding-bottom: 20px;
+  padding-bottom: 15mm;
 }
 
 .section {

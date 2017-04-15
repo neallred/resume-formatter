@@ -1,0 +1,23 @@
+#! /bin/sh
+STYLE_PATH=${3:=""}
+CONVERTED_STYLE_PATH="${STYLE_PATH%%.*}.css"
+PAGE_MARGIN='12mm'
+
+#convert sass to css
+./node_modules/node-sass/bin/node-sass $STYLE_PATH $CONVERTED_STYLE_PATH
+
+pandoc $1 \
+  -t html5 \
+  -o $2 \
+  -V margin-top:$PAGE_MARGIN \
+  -V margin-right:$PAGE_MARGIN \
+  -V margin-bottom:$PAGE_MARGIN \
+  -V margin-left:$PAGE_MARGIN \
+  -V papersize:letter \
+  --css $CONVERTED_STYLE_PATH
+
+#clean up css
+rm $CONVERTED_STYLE_PATH
+
+# Example: 
+# pandoc_build in/neallred.md out/neallred.pdf in/neallred.scss && zathura out/neallred.pdf
