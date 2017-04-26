@@ -86,12 +86,16 @@ $title-border: 1mm #003d4e solid;
 //  Impact,
 //  Roboto, Arial, sans-serif;
 
+$spacing-scalar: 2.4;
+
 @mixin get-title-padding($title-font-size) {
-  padding: ($title-font-size / 2) 0 ($title-font-size / 2);
+  //padding: ($title-font-size / 2) 0 ($title-font-size / 2);
+  padding: ($title-font-size / $spacing-scalar) 0 ($title-font-size / $spacing-scalar);
 }
 
 @mixin get-title-margin($title-font-size) {
-  margin: ($title-font-size / 2) 0 ($title-font-size / 2);
+  //margin: ($title-font-size / 2) 0 ($title-font-size / 2);
+  margin: ($title-font-size / $spacing-scalar) 0 ($title-font-size / $spacing-scalar);
 }
 
 @mixin get-title-border($title-border) {
@@ -113,10 +117,10 @@ $meta-font-size: $general-font-size;
 $list-font-size: $general-font-size;
 
 // section constants
-$section-font-size: 22mm;
+$section-font-size: 20mm;
 
 // subsection constants
-$subsection-font-size: 15mm;
+$subsection-font-size: 14mm;
 
 
 * {
@@ -134,6 +138,7 @@ h2 {
   font-size: $section-font-size;
   @include get-title-border($title-border);
   @include get-title-margin($section-font-size);
+
 }
 
 h3 {
