@@ -30,19 +30,20 @@ Skills
 
 ###
 
-* Front-End (HTML/CSS/JS, ES6, React/Redux, Jest, Enzyme, Chai, Tape, Webpack)
-* Tooling (Git CLI, Linux CLI, BASH scripting, Node scripting, Vim)
+* Front-End (HTML/CSS/JS, ES6, React/Redux, Jest, Enzyme, Chai, Webpack)
+* Tooling (Git CLI, Linux CLI, BASH, Node, npm/yarn, Docker, Vim)
 * People (inquisitive listener, persistence, written/oral communication)
 
 Work Experience
 ---------------
 
 <h3 class="section__leader">Front End Developer at Randstad USA <span class="job__location">(Best Buy Corporate: Jul 2016 - present)</span></h3>
+* Trained new teammates on the tech stack and taught them domain knowledge.
+* Collaborated with business, QA, UX and developers to ensure quality, on-time products
+* Testing: converted Karma/Mocha to Jest and doubled coverage to 80%.
 * Converted our codebase to ES6, setting the standard for future code.
 * Decoupled our codebase from another by creating a separate build process.
-* Testing: converted Karma/Mocha to Jest and doubled coverage to 80%.
-* Trained new teammates on our tech stack and taught them domain knowledge.
-* Tech Stack: React/Redux, ES6, Jest, Enzyme, Grunt, Webpack, LESS/CSS (BEM)
+* Tech Stack: React/Redux, ES6, LESS/CSS (BEM), Jest, Jenkins, Grunt, Webpack
 
 ### Research Assistant at BYU <span class="job__location">(Provo, UT: Apr 2014 - Jun 2016)</span>
 * Maintain Team Populism website (https://populism.byu.edu)
@@ -52,12 +53,11 @@ Work Experience
 Education
 ---------
 ### Brigham Young University <span class="job__location">(2009-2010, 2012-2015)</span>
-* B.A. International Relations, 3.89 GPA (Fall 2015)
-* Math Skills: 24 Econ credits, Intro to Proofs, Calculus I, Statistics
+* B.A. International Relations, 3.89 GPA with 30+ Math and Economics credits
 
 ### Hobby Coding
 * Front End Web Development Certification (February 9, 2016) through Free Code Camp	
-* Apps: Library management (allredlib), Recipe sharing (allredcipes)(see github.com/neallred/)
+* Apps: ChoicEats Recipe sharing (github.com/choiceats/), Library management (Allredlib)
 * Courses: 12+ Codecademy courses, Ruby Koans, Standford Online CS 101
 * Reading: Functional Javascript, Javascript the Good Parts, Michael Hartl RoR book
 
