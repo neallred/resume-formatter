@@ -39,6 +39,7 @@ Work Experience
 
 <h3 class="section__leader">Front End Developer at Randstad USA <span class="job__location">(Best Buy Corporate: Jul 2016 - present)</span></h3>
 * Trained new teammates on the tech stack and taught them domain knowledge.
+* Reviewed teammates code and gave constructive, actionable feedback.
 * Collaborated with business, QA, UX and developers to ensure quality, on-time products
 * Testing: converted Karma/Mocha to Jest and doubled coverage to 80%.
 * Converted our codebase to ES6, setting the standard for future code.
