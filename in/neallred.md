@@ -30,26 +30,32 @@ Skills
 
 ###
 
-* Front-End (HTML/CSS/JS, ES6, React/Redux, Jest, Enzyme, Chai, Webpack)
-* Tooling (Git CLI, Linux CLI, BASH, Node, npm/yarn, Docker, Vim)
+* Front-End (HTML/CSS/JS, ES6, React/Redux, Elm, Jest, Mocha, Webpack)
+* Tooling (Git CLI, Linux CLI, BASH, Node, NPM/Yarn, Gulp, Vim)
 * People (inquisitive listener, persistence, written/oral communication)
 
 Work Experience
 ---------------
 
-<h3 class="section__leader">Front End Developer at Randstad USA <span class="job__location">(Best Buy Corporate: Jul 2016 - Jun 2017)</span></h3>
+### Front End Developer at True Source <span class="job__location">(NRT Web Services: Jul 2017 - Present)</span>
+* Developed responsive, cross-browser compatible (IE 10+) pages and widgets.
+* Created a dependency visualizer for detecting and reducing code complexity.
+* Advocated use of new web APIs, technologies, and language standards.
+* Spread knowledge of and encouraged best practices in Git source control.
+* Helped coordinate new code releases to ensure smooth application updates.
+* Championed code reuse and functional programming techniques.
+* Tech Stack: ES5/ES6, jQuery, Vue, SCSS, Gulp, TFS, VSTS, Git
+
+### Front End Developer at Randstad USA <span class="job__location">(Best Buy Corporate: Jul 2016 - Jun 2017)</span>
 * Trained new teammates on the tech stack and taught them domain knowledge.
 * Reviewed teammates code and gave constructive, actionable feedback.
-* Collaborated with business, QA, UX and developers to ensure quality, on-time products
+* Collaborated with business, QA, UX and developers to ensure quality, on-time products.
 * Testing: converted Karma/Mocha to Jest and doubled coverage to 80%.
-* Converted our codebase to ES6, setting the standard for future code.
 * Decoupled our codebase from another by creating a separate build process.
 * Tech Stack: React/Redux, ES6, LESS/CSS (BEM), Jest, Jenkins, Grunt, Webpack
 
 ### Research Assistant at BYU <span class="job__location">(Provo, UT: Apr 2014 - Jun 2016)</span>
-* Maintain Team Populism website (https://populism.byu.edu)
-* Coauthored a scholarly article draft on the consequences of Populism for Democracy
-* Conducted large-N statistical analyses of populism with Stata scripts
+* Conducted large-N statistical analyses of populism with Stata scripts.
 
 Education
 ---------
@@ -57,16 +63,15 @@ Education
 * B.A. International Relations, 3.89 GPA with 30+ Math and Economics credits
 
 ### Hobby Coding
-* Front End Web Development Certification (February 9, 2016) through Free Code Camp	
+* Front End Web Development Certification through Free Code Camp (February 2016)
 * Apps: ChoicEats Recipe sharing (github.com/choiceats/), Library management (Allredlib)
-* Courses: 12+ Codecademy courses, Ruby Koans, Standford Online CS 101
-* Reading: Functional Javascript, Javascript the Good Parts, Michael Hartl RoR book
+* Courses: 12 Codecademy courses, 8 Pluralsight courses, Stanford Online CS 101
+* Reading: Javascript the Good Parts, Functional Javascript, Haskell Programming
+* Attended Haskell Meetup Group (Oct 2017 - Present)
 
 Service
 -------
 
-### LDS Missionary at Rosario, Argentina Mission <span class="job__location">(Aug 2010 - Aug 2012)</span>
-* Learned fluent conversational and written Spanish
-* Applied planning, accountability, team work, and leadership principles
-
-### Eagle Scout (2009)
+* Mentored an auditor becoming a front end developer (Sep 2017 - Present)
+* LDS Missionary in Rosario, Argentina Mission (Aug 2010 - Aug 2012)
+* Eagle Scout (2009)
