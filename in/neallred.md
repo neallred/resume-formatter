@@ -37,32 +37,31 @@ Skills
 Work Experience
 ---------------
 
-### Front End Developer at True Source <span class="job__location">(NRT Web Services: Jul 2017 - Present)</span>
+### Front End Engineer, Jr. at NRT Web Services <span class="job__location">(Jan 2018 - Present)</span>
+* Reduced CSS bundle size by 20% on most visited page via module bundling.
+* Contributed to a site wide rebrand of all colors and fonts.
+* Created an automated CSS usage tracking tool.
+* Used Highcharts for data visualization.
+
+### Front End Developer at True Source <span class="job__location">(NRT Web Services: Jul 2017 - Dec 2017)</span>
 * Developed responsive, cross-browser compatible (IE 10+) pages and widgets.
-* Created a dependency visualizer for detecting and reducing code complexity.
+* Created a Javascript dependency visualizer for reducing code complexity.
 * Advocated use of new web APIs, technologies, and language standards.
 * Spread knowledge of and encouraged best practices in Git source control.
-* Helped coordinate new code releases to ensure smooth application updates.
 * Championed code reuse and functional programming techniques.
-* Tech Stack: ES5/ES6, jQuery, Vue, SCSS, Gulp, TFS, VSTS, Git
+* Tech Stack: ES6, jQuery, SCSS, Gulp, TFS, VSTS, Git
 
 ### Front End Developer at Randstad USA <span class="job__location">(Best Buy Corporate: Jul 2016 - Jun 2017)</span>
 * Trained new teammates on the tech stack and taught them domain knowledge.
-* Reviewed teammates code and gave constructive, actionable feedback.
 * Collaborated with business, QA, UX and developers to ensure quality, on-time products.
 * Testing: converted Karma/Mocha to Jest and doubled coverage to 80%.
 * Decoupled our codebase from another by creating a separate build process.
 * Tech Stack: React/Redux, ES6, LESS/CSS (BEM), Jest, Jenkins, Grunt, Webpack
 
-### Research Assistant at BYU <span class="job__location">(Provo, UT: Apr 2014 - Jun 2016)</span>
-* Conducted large-N statistical analyses of populism with Stata scripts.
-
 Education
 ---------
-### Brigham Young University <span class="job__location">(2009-2010, 2012-2015)</span>
-* B.A. International Relations, 3.89 GPA with 30+ Math and Economics credits
 
-### Hobby Coding
+* B.A. International Relations from Brigham Young University (December 2015)
 * Front End Web Development Certification through Free Code Camp (February 2016)
 * Apps: ChoicEats Recipe sharing (github.com/choiceats/), Library management (Allredlib)
 * Courses: 12 Codecademy courses, 8 Pluralsight courses, Stanford Online CS 101
@@ -72,6 +71,6 @@ Education
 Service
 -------
 
-* Mentored an auditor becoming a front end developer (Sep 2017 - Present)
+* Mentored an auditor becoming a front end developer (Sep 2017 - Jan 2018)
 * LDS Missionary in Rosario, Argentina Mission (Aug 2010 - Aug 2012)
 * Eagle Scout (2009)
