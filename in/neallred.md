@@ -1,3 +1,5 @@
+<base></base>
+<link rel="stylesheet" href="/home/nathaniel/github/resume-formatter/in/neallred.css">
 <style>
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -39,7 +41,7 @@ Work Experience
 
 ### Front End Engineer, Jr. at NRT Web Services <span class="job__location">(Jan 2018 - Present)</span>
 * Reduced CSS bundle size by 20% on most visited page via module bundling.
-* Contributed to a site wide rebrand of all colors and fonts.
+* Contributed to a site-wide rebrand of all colors and fonts.
 * Created an automated CSS usage tracking tool.
 * Used Highcharts for data visualization.
 
@@ -47,7 +49,7 @@ Work Experience
 * Developed responsive, cross-browser compatible (IE 10+) pages and widgets.
 * Created a Javascript dependency visualizer for reducing code complexity.
 * Advocated use of new web APIs, technologies, and language standards.
-* Spread knowledge of and encouraged best practices in Git source control.
+* Worked on a public facing, high traffic site (coldwellbankerhomes.com)
 * Championed code reuse and functional programming techniques.
 * Tech Stack: ES6, jQuery, SCSS, Gulp, TFS, VSTS, Git
 

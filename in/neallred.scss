@@ -86,7 +86,7 @@ $title-border: 1mm #024418 solid;
 //  Impact,
 //  Roboto, Arial, sans-serif;
 
-$spacing-scalar: 2.8;
+$spacing-scalar: 2.2;
 
 @mixin get-title-padding($title-font-size) {
   //padding: ($title-font-size / 2) 0 ($title-font-size / 2);
