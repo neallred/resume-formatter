@@ -8,7 +8,7 @@ PAGE_MARGIN='12mm'
 
 # stack exec pandoc $1 \
 pandoc $1 \
-   --from=markdown \
+   --from=html \
    --pdf-engine=wkhtmltopdf \
    --to=html5 \
    --output=$2 \
@@ -16,8 +16,8 @@ pandoc $1 \
    --variable=margin-right:$PAGE_MARGIN \
    --variable=margin-bottom:$PAGE_MARGIN \
    --variable=margin-left:$PAGE_MARGIN \
-   --variable=papersize:letter 
-#   --css ./$CONVERTED_STYLE_PATH
+   --variable=papersize:letter \
+   --css /home/nathaniel/repos_public/resume-formatter/in/baptism.css
 
 #clean up css
 rm $CONVERTED_STYLE_PATH

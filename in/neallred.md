@@ -32,26 +32,27 @@ Skills
 
 ###
 
-* Front-End (HTML/CSS/JS, ES6, React/Redux, Elm, Jest, Mocha, Webpack)
-* Tooling (Git CLI, Linux CLI, BASH, Node, NPM/Yarn, Gulp, Vim)
+* Front-End (HTML/CSS/JS, ES6, React/Redux, Elm, Jest, Mocha, jQuery)
+* Tooling (Git CLI, Linux CLI, Node, NPM/Yarn, Webpack, Gulp, Vim)
 * People (inquisitive listener, persistence, written/oral communication)
 
 Work Experience
 ---------------
 
 ### Front End Engineer, Jr. at NRT Web Services <span class="job__location">(Jan 2018 - Present)</span>
-* Reduced CSS bundle size by 20% on most visited page via module bundling.
-* Contributed to a site-wide rebrand of all colors and fonts.
-* Created an automated CSS usage tracking tool.
-* Used Highcharts for data visualization.
+* Contributed to a rebrand of all colors and fonts on coldwellbankerhomes.com.
+* Reduced CSS bundle size by 20% on the most visited page via module loading.
+* Manually upgraded non-NPM dependencies, removing unused packages.
+* Created an automated CSS usage tracking tool with Puppeteer.
+* Used Highcharts to create an interactive mortgage calculator.
 
 ### Front End Developer at True Source <span class="job__location">(NRT Web Services: Jul 2017 - Dec 2017)</span>
+* Worked on a public facing, high traffic site (coldwellbankerhomes.com).
 * Developed responsive, cross-browser compatible (IE 10+) pages and widgets.
 * Created a Javascript dependency visualizer for reducing code complexity.
 * Advocated use of new web APIs, technologies, and language standards.
-* Worked on a public facing, high traffic site (coldwellbankerhomes.com)
 * Championed code reuse and functional programming techniques.
-* Tech Stack: ES6, jQuery, SCSS, Gulp, TFS, VSTS, Git
+* Tech Stack: ES6, jQuery, SASS, Gulp, NPM, TFS, VSTS, Git
 
 ### Front End Developer at Randstad USA <span class="job__location">(Best Buy Corporate: Jul 2016 - Jun 2017)</span>
 * Trained new teammates on the tech stack and taught them domain knowledge.
@@ -66,7 +67,7 @@ Education
 * B.A. International Relations from Brigham Young University (December 2015)
 * Front End Web Development Certification through Free Code Camp (February 2016)
 * Apps: ChoicEats Recipe sharing (github.com/choiceats/), Library management (Allredlib)
-* Courses: 12 Codecademy courses, 8 Pluralsight courses, Stanford Online CS 101
+* Courses: 12 Codecademy courses, 10 Pluralsight courses, Stanford Online CS 101
 * Reading: Javascript the Good Parts, Functional Javascript, Haskell Programming
 * Attended Haskell Meetup Group (Oct 2017 - Present)
 
