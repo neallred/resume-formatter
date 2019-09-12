@@ -1,4 +1,5 @@
 node_modules/
+.stack-work/
 
 in/*
 !in/example-resume.md

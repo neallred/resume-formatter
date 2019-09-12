@@ -1,5 +1,3 @@
-<base></base>
-<link rel="stylesheet" href="/home/nathaniel/github/resume-formatter/in/neallred.css">
 <style>
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
