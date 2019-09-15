@@ -1,12 +1,7 @@
-node_modules/
 .stack-work/
 
 in/*
-!in/example-resume.md
-!in/example-resume-styles.scss
 !in/neallred.md
-!in/neallred.scss
 
 out/*
-!out/example-resume.pdf
 !out/neallred.pdf

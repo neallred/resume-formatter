@@ -3,7 +3,9 @@ module ResumeStyles where
 import Clay
 import Clay.Common (baseline)
 import Clay.Font
+import Clay.FontFace
 import Clay.Selector (selectorFromText)
+import Clay.Elements
 import Control.Monad
 import Data.Text
 
@@ -14,7 +16,6 @@ resetRules = do
   padding zero zero zero zero
   borderWidth zero
   fontSize (pct 100)
---	font Clay.Font.inherit
   verticalAlign vAlignBaseline
 
 selectorsToReset =
@@ -22,7 +23,6 @@ selectorsToReset =
   , body
   , Clay.div
   , Clay.span
-  -- , applet
   , object
   , iframe
   , h1
@@ -36,14 +36,12 @@ selectorsToReset =
   , pre
   , a
   , abbr
-  -- , acronym
   , address
-  -- , big
   , cite
   , code
   , del
   , dfn
-  -- , em
+  , Clay.Elements.em
   , img
   , ins
   , kbd
@@ -51,16 +49,13 @@ selectorsToReset =
   , s
   , samp
   , Clay.small
-  -- , strike
   , strong
   , sub
   , sup
-  -- , tt
   , var
   , b
   , u
   , i
-  -- , center
   , dl
   , dt
   , dd
@@ -115,6 +110,9 @@ selectorsToBlockify =
   , section
   ]
 
+zeroMargin =
+    margin zero zero zero zero
+
 styleReset :: Css
 styleReset = do
   forM_ selectorsToReset (? resetRules)
@@ -123,8 +121,10 @@ styleReset = do
   forM_ [ol, ul] (? do
     listStylePosition none
     listStyleImage none
+    listStyleType none
+    zeroMargin
+    padding zero zero zero zero
                  )
-  -- forM_ [blockquote, q] (? quotes none)
   forM_ [blockquote, q] (? do
     before & do
       content none
@@ -134,40 +134,21 @@ styleReset = do
   table ? do
     borderCollapse collapse
     borderSpacing zero
---  input (|=) "type" "checkbox" ? margin (0  :: Size LengthUnit)
---  input (|=) "type" "submit"  and disabled... ? color black
 
 mainColor = "#222222"
 generalFontSizeUnits = 11
 generalFontSize = mm generalFontSizeUnits
-titleBorder = border solid (mm 1) "#024418"
-spacingScalar = 2.2
 
-sectionFontSize = mm (18 / spacingScalar)
-sectionPadding =
-    padding sectionFontSize zero sectionFontSize zero
+sectionFontSize = mm (9.18)
+subsectionFontSize = mm (6.36)
 
-sectionMargin =
-    margin sectionFontSize zero sectionFontSize zero
 
-subsectionFontSize = mm (14 / spacingScalar)
-subsectionPadding =
-    padding subsectionFontSize zero subsectionFontSize zero
-
-subsectionMargin =
-    margin subsectionFontSize zero subsectionFontSize zero
-
-nameSize = mm 25
-nameFontStyle = italic
-nameFontWeight = bold
-
-colorBlue = "#0000ff"
 
 -- meta constants (e.g. for address, phone)
-metaFontSize = generalFontSize;
+metaFontSize = mm (generalFontSizeUnits / 2);
 
 -- list constants
-listFontSize = generalFontSize;
+listFontSize = mm (generalFontSizeUnits / 2);
 
 addMetaBlock el = selectorFromText (".meta__" <> el)
 leftMetas = Prelude.map addMetaBlock ["address", "city", "github"]
@@ -187,33 +168,35 @@ rightMetaStyles = do
 resumeStyles :: Css
 resumeStyles =  do
   styleReset
-  star ? color mainColor
+  star ? do
+    color mainColor
+    fontFamily ["LibreBaskerville"] [serif]
   h1 ? do
-    fontSize nameSize
-    fontStyle nameFontStyle
-    fontWeight nameFontWeight
+    fontSize (mm 16)
+    fontFamily ["ComputerModern"] [serif]
   h2 ?
     do
       fontSize sectionFontSize
-      sectionPadding
-      sectionMargin
+      padding sectionFontSize zero zero zero
+      zeroMargin
+      borderBottom solid (px 1) "#024418"
+      display inlineBlock
   h3 ?
     do
       fontSize subsectionFontSize
-      subsectionPadding
-      subsectionMargin
-  p ? color colorBlue -- really? blue?
+      padding subsectionFontSize zero (mm 2) zero
+      zeroMargin
   li ? do
-    -- listStyleShape circle
+    listStyleType circleListStyle
     listStylePosition inside
     fontSize listFontSize
     lineHeight (unitless 1.4)
     marginLeft (mm 2)
   ".job__location" ? do
-      fontSize (mm (generalFontSizeUnits + 1))
+      fontSize (mm (generalFontSizeUnits / 2.2))
       fontStyle italic
   ".meta" ? do
-    paddingBottom (mm 15)
+    paddingBottom (mm 10)
   ".meta__row" ? do
       display block
       clear both
@@ -222,7 +205,6 @@ resumeStyles =  do
   forM_ rightMetas (? rightMetaStyles)
   forM_ (leftMetas ++ rightMetas) (? metaStyles)
 
---stylesheet :: Text
 stylesheet = render resumeStyles
 
 printTheStyles :: IO ()

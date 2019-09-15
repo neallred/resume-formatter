@@ -6,6 +6,8 @@ import Data.Text.Lazy
 import Text.Pandoc.App as P
 
 import ResumeStyles (stylesheet)
+
+pageMargin = "14mm"
 styleSheetPath = "./in/neallred.css"
 myOpts =
   let
@@ -19,10 +21,10 @@ myOpts =
                      , optTableOfContents = optTableOfContents
                      , optBaseHeaderLevel = optBaseHeaderLevel
                      , optTemplate = optTemplate
-                     , optVariables = [ ("margin-top", "12mm")
-                     , ("margin-right", "12mm")
-                     , ("margin-bottom", "12mm")
-                     , ("margin-left", "12mm")
+                     , optVariables = [ ("margin-top", pageMargin)
+                     , ("margin-right", pageMargin)
+                     , ("margin-bottom", pageMargin)
+                     , ("margin-left", pageMargin)
                      , ("papersize", "letter")
                      ]
                      , optMetadata = [("pagetitle", "Nathaniel Allred resume")]
