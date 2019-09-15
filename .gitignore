@@ -2,6 +2,10 @@
 
 in/*
 !in/neallred.md
+!in/LibreBaskerville-Bold.ttf
+!in/LibreBaskerville-Italic.ttf
+!in/LibreBaskerville-Regular.ttf
+!in/computer-modern-oblique-rm.ttf
 
 out/*
 !out/neallred.pdf
