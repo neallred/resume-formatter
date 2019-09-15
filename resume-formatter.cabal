@@ -1,0 +1,25 @@
+name:                resume-formatter
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/neallred/resume-formatter#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Nathaniel Allred
+maintainer:          neallred@gmail
+copyright:           2019 Nathaniel Allred
+category:            CLI
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable resume-formatter
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  other-modules:
+      ResumeStyles
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , pandoc >= 2.7.3 && < 3
+                     , clay >= 0.13.1 && < 1
+                     , text >= 1.2.3.1 && < 2

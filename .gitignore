@@ -1,11 +1,11 @@
-node_modules/
+.stack-work/
 
 in/*
-!in/example-resume.md
-!in/example-resume-styles.scss
 !in/neallred.md
-!in/neallred.scss
+!in/LibreBaskerville-Bold.ttf
+!in/LibreBaskerville-Italic.ttf
+!in/LibreBaskerville-Regular.ttf
+!in/computer-modern-oblique-rm.ttf
 
 out/*
-!out/example-resume.pdf
 !out/neallred.pdf
