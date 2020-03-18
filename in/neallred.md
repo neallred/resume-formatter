@@ -38,8 +38,8 @@ Nathaniel Allred
   <span class="meta__email">neallred@gmail.com</span>
   </div>
   <div class="meta__row">
-  <span class="meta__github">github.com/neallred/</span>
-  <span class="meta__stackoverflow">stackoverflow.com/users/5753978/neallred/</span>
+  <span class="meta__github">github.com/neallred</span>
+  <span class="meta__stackoverflow">stackoverflow.com/users/5753978/neallred</span>
   </div>
 </div>
 
@@ -51,9 +51,9 @@ Work Experience
 * Instrumental in adding a sites builder to the existing Leadpage builder.
 * Revamped the signup and payment experience, including PayPal integration.
 * Made a business intelligence data pipeline and accompanying data visualizer.
+* Resolved performance bottlenecks and implemented performance regression tests.
 * Relentlessly pared down unused code.
-* Demo-ed Elm project and advocated functional programming.
-* Tech Stack: React, Immutable, D3, Python, Scala, Akka
+* Tech Stack: React, Redux, Typescript, Python, Scala, Akka
 
 ### Front End Engineer, Jr. at NRT Web Services <span class="job__location">(Jan 2018 - Jun 2018)</span>
 
@@ -89,6 +89,7 @@ Other projects
 * Volunteering calendar app (Elm, Python, Flask)
 * Command line mortgage calculator (Haskell)
 * Book library management system (Haskell, Yesod, Postgres)
+* Client-side scripture searcher (Rust, WebAssembly, Typescript, React)
 
 Service
 -------
