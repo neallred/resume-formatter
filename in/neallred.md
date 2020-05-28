@@ -46,7 +46,12 @@ Nathaniel Allred
 Work Experience
 ---------------
 
-### Software Engineer at Leadpages <span class="job__location">(Jun 2018 - Present)</span>
+### Senior Engineer at Target <span class="job__location">(May 2020 - Present)</span>
+
+* Helped maintain an OpenStack private cloud.
+* Tech Stack: OpenStack, Chef, Drone, Python, Ruby, Golang
+
+### Software Engineer at Leadpages <span class="job__location">(Jun 2018 - May 2020)</span>
 
 * Instrumental in adding a sites builder to the existing Leadpage builder.
 * Revamped the signup and payment experience, including PayPal integration.
@@ -57,22 +62,20 @@ Work Experience
 
 ### Front End Engineer, Jr. at NRT Web Services <span class="job__location">(Jan 2018 - Jun 2018)</span>
 
-* Reduced CSS bundle size by 20% on the most visited page via module loading.
+* Decreased CSS by 20% on the homepage via module loading.
 * Created an automated CSS usage tracking tool with Puppeteer.
 * Used Highcharts to create an interactive mortgage calculator.
+* Tech Stack: ES6, jQuery, SASS, Gulp, NPM, TFS, VSTS, Git
 
 ### Front End Developer at True Source <span class="job__location">(NRT Web Services: Jul 2017 - Dec 2017)</span>
 
 * Worked on a public facing, high traffic site (coldwellbankerhomes.com).
 * Created a Javascript dependency visualizer for reducing code complexity.
-* Advocated use of new web APIs, technologies, and language standards.
-* Championed code reuse and functional programming techniques.
-* Tech Stack: ES6, jQuery, SASS, Gulp, NPM, TFS, VSTS, Git
+* Advocated use of new web APIs, technologies, and functional programming.
 
 ### Front End Developer at Randstad USA <span class="job__location">(Best Buy : Jul 2016 - Jun 2017)</span>
 
 * Trained new teammates on the tech stack and taught them domain knowledge.
-* Worked with business, QA, UX and engineers to ensure quality, on-time products.
 * Testing: converted Karma/Mocha to Jest and doubled coverage to 80%.
 * Decoupled our codebase from another by creating a separate build process.
 * Tech Stack: React/Redux, ES6, LESS/CSS (BEM), Jest, Jenkins, Grunt, Webpack
@@ -80,16 +83,16 @@ Work Experience
 Education
 ---------
 ###
-* B.A. International Relations from Brigham Young University (December 2015)
-* Front End Web Development Certification through Free Code Camp (February 2016)
+* B.A. International Relations, Brigham Young University (December 2015)
+* Front End Web Development Certification, Free Code Camp (February 2016)
 
 Other projects
 --------------
 ###
+* Book library management system (Haskell, Purescript, Yesod, Postgres)
+* Client-side scripture searcher (Rust, WebAssembly, Typescript, React)
 * Volunteering calendar app (Elm, Python, Flask)
 * Command line mortgage calculator (Haskell)
-* Book library management system (Haskell, Yesod, Postgres)
-* Client-side scripture searcher (Rust, WebAssembly, Typescript, React)
 
 Service
 -------
@@ -97,4 +100,3 @@ Service
 * Volunteer tutored a high school math student (Sep 2018 - Feb 2019)
 * Mentored an auditor becoming a front end developer (Sep 2017 - Jan 2018)
 * LDS Missionary in Rosario, Argentina Mission (Aug 2010 - Aug 2012)
-* Eagle Scout (2009)
