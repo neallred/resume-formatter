@@ -11,7 +11,7 @@ github.com/neallred |
 ### Senior Engineer at Target
 ###### (May 2020 - Present)
 
-* Helped maintain a large OpenStack private cloud.
+* Maintained a large OpenStack private cloud.
 * Advocated and implemented coding best practices.
 * Onboarded teammates and fleshed out documentation.
 * Provided rapid response to platform incidents.
@@ -26,7 +26,7 @@ github.com/neallred |
 * Made an ETL pipeline and accompanying data visualizer.
 * Revamped signup and payment, including PayPal integration.
 * Relentlessly pared down unused code.
-* Tech Stack: React, Redux, Typescript, Python, Scala, Akka
+* Tech Stack: React/Redux, Typescript, Python, Scala, Akka
 
 ### Front End Developer at NRT
 ###### (Jul 2017 - Jun 2018)
@@ -35,8 +35,8 @@ github.com/neallred |
 * Created a Javascript dependency visualizer for reducing code complexity.
 * Decreased CSS by 20% on the homepage via module loading.
 * Created an automated CSS usage tracking tool with Puppeteer.
-* Tech Stack: ES6, jQuery, SASS, Gulp, NPM, TFS, VSTS, Git
 * Advocated use of new web APIs, technologies, and functional programming.
+* Tech Stack: ES6, jQuery, SASS, Gulp, NPM, TFS, VSTS, Git
 
 ### Front End Developer at Best Buy
 ###### (Jul 2016 - Jun 2017)

@@ -23,7 +23,7 @@
 }
 
 body {
-  line-height : 1;
+  line-height: 1;
   margin: 0;
   padding: 0;
 }
@@ -49,18 +49,18 @@ td
 
 h1
 {
-  font-size   : 10mm;
+  font-size: 10mm;
   margin: 0;
   padding-bottom: 5mm;
-  font-family : "ComputerModern", serif;
+  font-family: "ComputerModern", serif;
 }
 
 ul {
-  list-style-position : none;
-  list-style-image    : none;
-  list-style-type     : none;
-  margin              : 0;
-  padding             : 0;
+  list-style-position: none;
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -87,7 +87,7 @@ h4 {
 h6 { /* timerange hack */
   display: block;
   position: relative;
-  top: -6.5mm;
+  top: -6.25mm;
   right: 0;
   text-align: right;
   margin: 0;
