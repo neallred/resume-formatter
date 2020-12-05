@@ -1,0 +1,22 @@
+{
+  "name": "resume-formatter",
+  "version": "1.0.0",
+  "description": "## Setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "markdown-pdf --paper-border 9mm --css-path in/neallred.css --out out/neallred.pdf in/neallred.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neallred/resume-formatter.git"
+  },
+  "author": "Nathaniel Allred",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/neallred/resume-formatter/issues"
+  },
+  "homepage": "https://github.com/neallred/resume-formatter#readme",
+  "dependencies": {
+    "markdown-pdf": "^10.0.0"
+  }
+}

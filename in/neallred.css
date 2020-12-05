@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "LibreBaskerville";
+  src: url("./LibreBaskerville-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LibreBaskerville";
+  src: url("./LibreBaskerville-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "LibreBaskerville";
+  src: url("./LibreBaskerville-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "LibreBaskerville";
+  src: url("./LibreBaskerville-Italic.ttf") format("truetype");
+  font-style: oblique;
+}
+@font-face {
+  font-family: "ComputerModern";
+  src: url("./computer-modern-oblique-rm.ttf") format("truetype");
+}
+
+body {
+  line-height : 1;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  color: #222222;
+  font-family: "LibreBaskerville", serif;
+}
+
+table {
+  padding-bottom: 10mm;
+  width: 100%;
+}
+
+th {
+  display: none;
+}
+
+td
+{
+  font-size : 4mm;
+}
+
+h1
+{
+  font-size   : 10mm;
+  margin: 0;
+  padding-bottom: 5mm;
+  font-family : "ComputerModern", serif;
+}
+
+ul {
+  list-style-position : none;
+  list-style-image    : none;
+  list-style-type     : none;
+  margin              : 0;
+  padding             : 0;
+}
+
+h2 {
+  font-size: 6mm;
+  padding: 6mm 0 0;
+  margin: 0;
+  border-bottom: solid 1px #024418;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 5mm;
+  padding: 6.36mm 0 2mm;
+  margin: 0;
+}
+
+/* dummy spacer for minor sections */
+h4 {
+  font-size: 1mm;
+  padding: 5mm 0 0;
+  margin: 0;
+}
+
+h6 { /* timerange hack */
+  display: block;
+  position: relative;
+  top: -6.5mm;
+  right: 0;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  font-size: 4mm;
+  height: 0;
+}
+
+li {
+  list-style-type     : circle;
+  list-style-position : inside;
+  font-size           : 3.4mm;
+  line-height         : 1.4;
+  margin-left         : 0.3mm;
+}

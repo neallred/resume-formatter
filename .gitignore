@@ -1,6 +1,7 @@
-.stack-work/
+node_modules/
 
 in/*
+!in/neallred.css
 !in/neallred.md
 !in/LibreBaskerville-Bold.ttf
 !in/LibreBaskerville-Italic.ttf
