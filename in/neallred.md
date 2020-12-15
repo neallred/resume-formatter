@@ -3,7 +3,7 @@
 . | .
 :-|-:
 320-296-9812 | 825 14th Street East
-neallred@gmail.com | Glencoe, MN 55336
+neallred@protonmail.com | Glencoe, MN 55336
 github.com/neallred | 
 
 ## Work Experience
